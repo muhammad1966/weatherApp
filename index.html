@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <div class="search-div">
+                <input type="search" value="London"  class="inp" id="inp">
+                <button class="search" id="search">
+                    <img src="assets/icons/search_FILL0_wght400_GRAD0_opsz48.svg" alt="" class="ss">
+                </button>
+            </div>
+            <div class="city-name">
+                <p class="name" id="name">London</p>
+            </div>
+            <div class="dis-img">
+                <img src="" alt="" class="status" id="status">
+            </div>
+            <div class="temperature">
+                <p class="temp" id="temp"></p>
+            </div>
+            <div class="cont">
+                <div class="feels-like">
+                    <p class="name1">Feels-Like</p>
+                    <p class="num1" id="f-like"></p>
+                    <p class="disc" id="disc1"></p>
+                </div>
+                <div class="humidity">
+                    <p class="name1">Humidity</p>
+                    <p class="num1" id="hum"></p>
+                    <p class="disc" id="hum-desc"></p>
+                </div>
+                <div class="wind-speed">
+                    <p class="name1">Wind Speed</p>
+                    <p class="num1" id="speed"></p>
+                    <p class="disc" id="wind-desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
